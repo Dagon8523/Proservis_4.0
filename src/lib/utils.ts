@@ -7,11 +7,11 @@ export function cn(...inputs: ClassValue[]) {
 
 // ── Constantes de contacto ─────────────────────────────────────
 export const CONTACT_INFO = {
-  phones: ["3208116373", "3144807148"],
+  phones: ["3114880034", "3144807148"],
   address: "Calle 8A N°33-04",
   email: "COMERCIAL@PROSERVIS.COM",
   emailAlt: ["GERENCIA@PROSERVIS.COM", "FACTURACION@PROSERVIS.COM"],
-  whatsapp: "573208116373", // formato internacional sin +
+  whatsapp: "573114880034", // formato internacional sin +
 } as const;
 
 export const WHATSAPP_MESSAGE =

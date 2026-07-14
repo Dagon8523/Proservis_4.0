@@ -98,7 +98,7 @@ export default function Hero() {
               <ArrowRight className="w-4 h-4" />
             </a>
             <a
-              href="https://wa.me/573208116373?text=Hola%20PROSERVIS%2C%20necesito%20información%20sobre%20transporte%20de%20carga."
+              href="https://wa.me/573114880034?text=Hola%20PROSERVIS%2C%20necesito%20información%20sobre%20transporte%20de%20carga."
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center justify-center gap-2 bg-white/10 text-white border border-white/25 px-7 py-4 rounded-2xl font-display font-600 text-base hover:bg-white/18 backdrop-blur-sm transition-all duration-200 hover:-translate-y-0.5"

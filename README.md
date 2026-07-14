@@ -126,7 +126,7 @@ const galleryImages = [
 
 | Dato | Archivo | Variable |
 |------|---------|----------|
-| Teléfonos | `Footer.tsx`, `ContactForm.tsx`, `Header.tsx` | Hardcoded (buscar 3208116373) |
+| Teléfonos | `Footer.tsx`, `ContactForm.tsx`, `Header.tsx` | Hardcoded (buscar ) |
 | Correos | `Footer.tsx` | Hardcoded |
 | Dirección | `Footer.tsx`, `ContactForm.tsx` | Hardcoded |
 | WhatsApp | `Hero.tsx`, `ContactCTA.tsx`, `Header.tsx` | URL wa.me/57XXXXXXXXXX |
