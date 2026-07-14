@@ -1,0 +1,86 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand-blue: #003B8E;
+  --brand-blue-dark: #001F5B;
+  --brand-blue-mid: #005BB5;
+  --brand-yellow: #FFC300;
+  --brand-gray-light: #F5F7FA;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  .bg-brand-blue { background-color: #003B8E; }
+  .bg-brand-blue-dark { background-color: #001F5B; }
+  .bg-brand-blue-mid { background-color: #005BB5; }
+  .bg-brand-yellow { background-color: #FFC300; }
+  .bg-brand-gray-light { background-color: #F5F7FA; }
+  .text-brand-blue { color: #003B8E; }
+  .text-brand-blue-dark { color: #001F5B; }
+  .text-brand-yellow { color: #FFC300; }
+  .border-brand-yellow { border-color: #FFC300; }
+  .border-brand-blue { border-color: #003B8E; }
+}
+
+/* Scrollbar premium */
+::-webkit-scrollbar { width: 6px; }
+::-webkit-scrollbar-track { background: #F5F7FA; }
+::-webkit-scrollbar-thumb { background: #003B8E; border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: #005BB5; }
+
+/* Route animation for SVG */
+.route-path {
+  stroke-dasharray: 200;
+  stroke-dashoffset: 200;
+  animation: drawRoute 3s ease-in-out infinite;
+}
+
+@keyframes drawRoute {
+  0% { stroke-dashoffset: 200; opacity: 0.3; }
+  50% { stroke-dashoffset: 0; opacity: 1; }
+  100% { stroke-dashoffset: -200; opacity: 0.3; }
+}
+
+.truck-move {
+  animation: truckFloat 4s ease-in-out infinite;
+}
+@keyframes truckFloat {
+  0%, 100% { transform: translateX(0px); }
+  50% { transform: translateX(8px); }
+}
+
+/* Glass card */
+.glass-card {
+  background: rgba(255, 255, 255, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Focus visible for a11y */
+*:focus-visible {
+  outline: 2px solid #FFC300;
+  outline-offset: 2px;
+  border-radius: 4px;
+}
