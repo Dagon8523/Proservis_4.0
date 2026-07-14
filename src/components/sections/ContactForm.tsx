@@ -77,7 +77,7 @@ export default function ContactForm() {
               Solicite su cotización ahora
             </h2>
             <p className="text-gray-500 text-lg mb-10 leading-relaxed">
-              Complete el formulario y nuestro equipo le responderá en menos de 2 horas con una propuesta personalizada.
+              Complete el formulario y nuestro equipo le responderá en menos de 24 horas con una propuesta personalizada.
             </p>
 
             {/* Contact channels */}
@@ -221,7 +221,7 @@ export default function ContactForm() {
               </button>
 
               <p className="text-xs text-gray-400 text-center mt-3">
-                Le responderemos en menos de 2 horas en horario hábil.
+                Le responderemos en menos de 24 horas en horario hábil.
               </p>
             </form>
           </motion.div>
