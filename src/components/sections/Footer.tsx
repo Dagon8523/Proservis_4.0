@@ -100,8 +100,6 @@ export default function Footer() {
                 <Mail className="w-4 h-4 text-[#FFC300] mt-0.5 flex-shrink-0" aria-hidden="true" />
                 <div>
                   <a href="mailto:COMERCIAL@PROSERVIS.COM" className="text-white/70 hover:text-[#FFC300] text-xs block transition-colors">COMERCIAL@PROSERVIS.COM</a>
-                  <a href="mailto:GERENCIA@PROSERVIS.COM" className="text-white/70 hover:text-[#FFC300] text-xs block transition-colors">GERENCIA@PROSERVIS.COM</a>
-                  <a href="mailto:FACTURACION@PROSERVIS.COM" className="text-white/70 hover:text-[#FFC300] text-xs block transition-colors">FACTURACION@PROSERVIS.COM</a>
                 </div>
               </li>
             </ul>
