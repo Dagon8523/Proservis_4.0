@@ -123,10 +123,10 @@ export default function Hero() {
                 transition={{ delay: 0.5 + i * 0.08 }}
                 className="flex items-center gap-2.5 glass-card rounded-xl px-3.5 py-2.5"
               >
-                <div className="w-7 h-7 rounded-lg bg-[#FFC300]/20 flex items-center justify-center flex-shrink-0">
-                  <Icon className="w-3.5 h-3.5 text-[#FFC300]" />
+                <div className="w-7 h-7 rounded-lg bg-[#FFC300] flex items-center justify-center flex-shrink-0">
+                  <Icon className="w-3.5 h-3.5 text-[#001F5B]" />
                 </div>
-                <span className="text-white text-xs font-medium leading-tight">{label}</span>
+                <span className="text-[#001F5B] text-xs font-semibold leading-tight">{label}</span>
               </motion.div>
             ))}
           </motion.div>
